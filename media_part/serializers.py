@@ -1,8 +1,8 @@
 from rest_framework import serializers
 from rest_framework.exceptions import PermissionDenied
 from users.admin import User
-from media_part.models import Post
-from media_part.models import Likes
+from .models import Post
+from .models import Likes
 
 
 

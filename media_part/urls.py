@@ -1,9 +1,9 @@
 from django.urls import path
-from media_part.views import PostViewSet
-from media_part.views import EditPostView
-from media_part.views import AddPostView
-from media_part.views import LikesView
-from media_part.views import AddLikeView
+from .views import PostViewSet
+from .views import EditPostView
+from .views import AddPostView
+from .views import LikesView
+from .views import AddLikeView
 
 
 
